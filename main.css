@@ -70,10 +70,6 @@ h2 {
 }
 
 @media screen and (min-width: 600px) {
-    html {
-        background-color: antiquewhite;
-        
-    }
 
     ul {
         display: flex;
