@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
+/* set font and color variables in root*/
 :root {
     --heading-font: "Lora";
     --paragraph-font: Helvetica, Arial, sans-serif;
@@ -47,7 +48,7 @@ ul {
     list-style: none;
     padding: 0;
     text-transform: uppercase;
-    border-block: 1px solid var(--border-color);
+    border-block: 1px solid var(--border-color); /* I just learned border-block since I wanted to set the top and bottom border color and width in one line instead of two! */
 }
 
 li {
