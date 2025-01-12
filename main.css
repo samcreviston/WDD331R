@@ -69,6 +69,10 @@ h2 {
     font-family: var(--heading-font);
 }
 
+img {
+    max-width: 100%;
+}
+
 @media screen and (min-width: 600px) {
 
     ul {
